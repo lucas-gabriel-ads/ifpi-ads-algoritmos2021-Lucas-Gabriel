@@ -6,7 +6,7 @@ function main() {
     const nota_2 = Number(input('Nota Prova 2: '))
     const nota_3 = Number(input('Nota Atividades: '))
 
-    var media_ponderada = ((nota_1 * 0.2) + (nota_2 * 0.3) + (nota_3 * 0.1)) / 0.6
+    var media_ponderada = ((nota_1 * 2) + (nota_2 * 3) + (nota_3 * 1)) / 6
 
     console.log('+=================== BOLETIM ESCOLAR ===================+')
     console.log('Aluno: ', nome)
